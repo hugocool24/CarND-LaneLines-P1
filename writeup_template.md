@@ -37,11 +37,16 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 One potential shortcoming would be what would happen when ... 
 
+I make a lot of assumptions in my code for example that the lanes always inside my ROI, when for example making a lane change this my code could possibly miss lanes.
+
 Another shortcoming could be ...
 
+It does not handle curvaed lanes well since I draw one long line at the moment.
 
 ### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to ...
 
 Another potential improvement could be to ...
+
+One possible improvement could be to draw multiple x = kx +m lines instead of just one long one, this could possibly be able to draw curved lanes.
